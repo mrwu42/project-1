@@ -1,1 +1,1 @@
-# project-1
+# Animal Search Service
