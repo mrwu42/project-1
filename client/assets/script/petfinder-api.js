@@ -1,13 +1,13 @@
 $("#submit").on("click" ,function(){
     $("#searches").empty();
     // var type = $(this).data("type");
-    var queryURL = "https://api.petfinder.com/v2/animals/?api_key=9DDrWGvQUnYJpd0VlIUQWniNSHKnGDKBFCPikX6momuA9oYlKi";
+    var queryURL = "https://api.petfinder.com/v2/animals/?api_key=bnv76pNp5oYUTHyOOjC3mFdaUW6RpjkqEjoLt9m1XOqrQXKHw2";
     $.ajax({
         url:queryURL,
         method:"GET", 
         headers:{
 
-            "Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVhNmEyY2RlYjQ2YmYzNjlkNjE1MTNhY2U1ZDdjODVmYTM0ZjFhNWVlZmEyNWRlNjc0NjQ4ZmM1YTIxYWE2M2FjNDEzNWYzYjE5NTM4YmM4In0.eyJhdWQiOiI5RERyV0d2UVVuWUpwZDBWbElVUVduaU5TSEtuR0RLQkZDUGlrWDZtb211QTlvWWxLaSIsImp0aSI6ImVhNmEyY2RlYjQ2YmYzNjlkNjE1MTNhY2U1ZDdjODVmYTM0ZjFhNWVlZmEyNWRlNjc0NjQ4ZmM1YTIxYWE2M2FjNDEzNWYzYjE5NTM4YmM4IiwiaWF0IjoxNTgyMDc0MzIwLCJuYmYiOjE1ODIwNzQzMjAsImV4cCI6MTU4MjA3NzkyMCwic3ViIjoiIiwic2NvcGVzIjpbXX0.LFdb8jmIeHMQzg6N58rJoBiiY9gV-7mHvGraqMk292uGnlIsArWkDBeyaIxR92JJ8Wy6QISqrgKfoA8ORAAce78yFaNmaFzT4AMaCzUzeyi3IjpsMf0JbudVzzh-8I6jZt3QiJhLz5LwG9szvphiMXGEM_YFzeJ0JYnrZNs-dkbYof3FetMSnIWqHL0zCPSaf4KdwA1rmTYv_x_uCIeQsfQNXrP-QV0rFpK5pzSiEPh2AO_zN1ob2poHNB1Wp6kIjt-f-8JX74eRH5mM-DNSMLI3PySC1ovzdWqiK8DhYe1e-_mL6rvq9MB5hZb3YpRr-rsaESdLqoqqPcpeq0SGhw" 
+            "Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJibnY3NnBOcDVvWVVUSHlPT2pDM21GZGFVVzZScGprcUVqb0x0OW0xWE9xclFYS0h3MiIsImp0aSI6IjNkYjM3OGYzNjNiYjZjMTlhMGQyMTg0YmUxMGI5MTM1YmNlNjEzMzNhZjg3YzkxYTZkNDFjYzM0NDg4MTZkNzU3NWU3Zjk3MGU5ZmMzMGYzIiwiaWF0IjoxNTk3MTE4MTU4LCJuYmYiOjE1OTcxMTgxNTgsImV4cCI6MTU5NzEyMTc1OCwic3ViIjoiIiwic2NvcGVzIjpbXX0.Sr6RthsYSi-46Cvzz-pEWj2pDmxc29KyvmhnTmiGAVtSmryt4TC73fFOJa6tcIfn8FjbXhxejZiDFD1S1QHoDzhkq-t4Ncr26eyZZ1H5nxbSsVYF1Sax79wnefc0wbaYeGzxinWhMoiMYCEMhExuwN893hyFHdMq-rXdogp0eTTDUcG_YaS1K9o88S8BRvH1wok7P7_dAnfjSMwuK9tr_45RISlI6xgDLG9oh05jL9kbSs2Irrqv49W-wVCTBjpDcUHSuQa9Q8l8uXNL7eUvySluMmoRZQL3ZpgM1u1h_esIAKsgyxTXa724WBzEAp53U1U9IY1ZjnHHMCOMUTgCTA" 
 
              
 
